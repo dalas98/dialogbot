@@ -147,7 +147,7 @@ function readOutLoud(message) {
   // Set the text and voice attributes.
 	speech.text = message;
 	speech.volume = 1;
-	speech.rate = 1;
+	speech.rate = 0.8;
 	speech.pitch = 1;
   speech.lang = "id-ID";
   
