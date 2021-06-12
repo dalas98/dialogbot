@@ -1,6 +1,7 @@
 try {
   var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   var recognition = new SpeechRecognition();
+  recognition.lang = 'id-ID'
 }
 catch(e) {
   console.error(e);
